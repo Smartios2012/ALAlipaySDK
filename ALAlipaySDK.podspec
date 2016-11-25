@@ -10,5 +10,6 @@ s.source       = { :git => "https://github.com/Smartios2012/ALAlipaySDK.git", :t
 s.requires_arc = true
 s.vendored_frameworks  = "AlipaySDK.framework"
 s.resources            = "AlipaySDK.bundle"
+s.source_files  = "AlipaySDK.framework/Headers/**/*.h"
 s.public_header_files  = "AlipaySDK.framework/Headers/**/*.h"
 end
