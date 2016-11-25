@@ -10,7 +10,8 @@ s.source       = { :git => "https://github.com/Smartios2012/ALAlipaySDK.git", :t
 s.requires_arc = true
 s.frameworks        = "CoreTelephony", "SystemConfiguration", "CoreMotion"
 s.libraries         = "z", "c++"
-s.vendored_frameworks  = "AlipaySDK.framework"
 s.resources            = "AlipaySDK.bundle"
-s.source_files         = "AlipaySDK.framework/Headers/*.h"
+s.vendored_frameworks  = "AlipaySDK.framework"
+s.public_header_files  = "AlipaySDK.framework/Headers/**/*.h"
+s.source_files         = "AlipaySDK.framework/Headers/**/*.h"
 end
