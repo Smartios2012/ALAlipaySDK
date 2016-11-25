@@ -8,6 +8,6 @@ s.authors      = { "ALiang" => "https://github.com/Smartios2012/ALAlipaySDK"}
 s.platform     = :ios, "7.0"
 s.source       = { :git => "https://github.com/Smartios2012/ALAlipaySDK.git", :tag => s.version }
 s.requires_arc = true
-s.vendored_frameworks  = "AlipaySDK.framework"
-s.resources            = "AlipaySDK.bundle"
+s.vendored_frameworks  = "AlipaySDK"
+s.resources            = "AlipaySDK"
 end
