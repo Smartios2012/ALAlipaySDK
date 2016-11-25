@@ -5,7 +5,7 @@ s.summary      = "支付宝支付SDK，方便集成和使用！"
 s.homepage     = "https://github.com/Smartios2012/ALAlipaySDK"
 s.license      = { :type => "MIT", :file => "LICENSE" }
 s.authors      = { "ALiang" => "https://github.com/Smartios2012/ALAlipaySDK"}
-s.platform     = :ios, "7.0"
+s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/Smartios2012/ALAlipaySDK.git", :tag => s.version }
 s.requires_arc = true
 s.resources            = "AlipaySDK.bundle"
