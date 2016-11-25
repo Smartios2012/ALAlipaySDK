@@ -11,5 +11,4 @@ s.requires_arc = true
 s.resources            = "AlipaySDK.bundle"
 s.vendored_frameworks  = "AlipaySDK.framework"
 s.frameworks           = "CoreTelephony", "SystemConfiguration", "CoreMotion"
-s.libraries            = "z", "c++"
 end
