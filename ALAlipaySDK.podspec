@@ -7,7 +7,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }
 s.authors      = { "ALiang" => "https://github.com/Smartios2012/ALAlipaySDK"}
 s.platform     = :ios, "7.0"
 s.source       = { :git => "https://github.com/Smartios2012/ALAlipaySDK.git", :tag => s.version }
-s.source_files = "AlipaySDK", "AlipaySDK.framework/Headers/*.{h}"
+s.source_files = "AlipaySDK", "AlipaySDK/Headers/*.{h}"
 s.requires_arc = true
 s.vendored_frameworks  = "AlipaySDK.framework"
 s.resources            = "AlipaySDK.bundle"
